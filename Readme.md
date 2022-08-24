@@ -41,7 +41,8 @@ yarn build
 ## Technologies Used
 
 1. React.JS
-2. CSS
-3. Vite.JS
-4. GitHub Actions
-5. Firebase Hosting
+1. CSS
+1. Axios
+1. Vite.JS
+1. GitHub Actions
+1. Firebase Hosting
