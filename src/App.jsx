@@ -1,8 +1,14 @@
+import Navbar from './components/navbar';
+import Hero from './components/hero';
+import Feature from './components/feature';
+
 function App() {
 	return (
-		<div>
-			<h1>You have correctly configured the app</h1>
-		</div>
+		<>
+			<Navbar />
+			<Hero />
+			<Feature />
+		</>
 	);
 }
 
