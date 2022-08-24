@@ -1,6 +1,7 @@
 import Navbar from './components/navbar';
 import Hero from './components/hero';
 import Feature from './components/feature';
+import Signup from './components/signup';
 
 function App() {
 	return (
@@ -8,6 +9,7 @@ function App() {
 			<Navbar />
 			<Hero />
 			<Feature />
+			<Signup />
 		</>
 	);
 }
