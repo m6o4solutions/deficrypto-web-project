@@ -1,4 +1,4 @@
-# DeFi Cryptocurrency Website
+# DeFi-Crypto Website
 
 ## Description
 
@@ -6,9 +6,7 @@ Sample project to build and deploy a fully responsive website with a modern user
 
 I use the Coin Gecko API to access real time cryptocurrency information and data to display on this website.
 
-The project also puts into practice proper management of Git by organizing code into staging and production ready branches so that there is always a version of the code ready to go.
-
-Finally, the repetitive process of building and deploying the project to production is automated by using GitHub Actions for onward deployment to Firebase Hosting.
+Finally, the repetitive process of building and deploying the project to production is automated by using GitHub Actions for onward deployment to GitHub Pages.
 
 ## Getting Started
 
@@ -45,4 +43,4 @@ yarn build
 1. Axios
 1. Vite.JS
 1. GitHub Actions
-1. Firebase Hosting
+1. GitHub Pages
