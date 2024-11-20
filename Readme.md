@@ -1,4 +1,4 @@
-# DeFi-Crypto Website
+# DeFiCrypto Web Project
 
 ## Description
 
@@ -6,7 +6,7 @@ Sample project to build and deploy a fully responsive website with a modern user
 
 I use the Coin Gecko API to access real time cryptocurrency information and data to display on this website.
 
-Finally, the repetitive process of building and deploying the project to production is automated by using GitHub Actions for onward deployment to GitHub Pages.
+Finally, the repetitive process of building and deploying the project to production is automated by using the Netlify CI/CD pipeline.
 
 ## Getting Started
 
@@ -42,5 +42,4 @@ yarn build
 1. CSS
 1. Axios
 1. Vite.JS
-1. GitHub Actions
-1. GitHub Pages
+1. Netlify
