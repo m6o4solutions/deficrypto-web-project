@@ -42,4 +42,3 @@ yarn build
 1. CSS
 1. Axios
 1. Vite.JS
-1. Netlify
