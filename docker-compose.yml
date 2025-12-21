@@ -1,0 +1,18 @@
+services:
+  deficrypto:
+    image: ghcr.io/m6o4solutions/deficrypto-web-project:latest
+    container_name: deficrypto
+    restart: unless-stopped
+    networks:
+      - traefik-network
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.deficrypto.rule=Host(`deficrypto.m6o4solutions.com`)"
+      - "traefik.http.routers.deficrypto.entrypoints=websecure"
+      - "traefik.http.routers.deficrypto.tls.certresolver=letsencrypt"
+      - "traefik.http.services.deficrypto.loadbalancer.server.port=80"
+
+networks:
+  traefik-network:
+    external: true
+    name: traefik-network
